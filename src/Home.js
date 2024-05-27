@@ -8,7 +8,8 @@ const Home = ({ visits, setVisits }) => {
 
     useEffect(() => {
         setVisits(visits + 1);
-    },[location, setVisits, visits])
+         // eslint-disable-next-line 
+    },[location])
 
   return (
     <div>
