@@ -8,7 +8,7 @@ const Home = ({ visits, setVisits }) => {
 
     useEffect(() => {
         setVisits(visits + 1);
-    },[location])
+    },[location, setVisits, visits])
 
   return (
     <div>
